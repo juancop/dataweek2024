@@ -1,0 +1,26 @@
+{
+  "name": "dataweek2024",
+  "version": "1.0.0",
+  "description": "Games for Data Week 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancop/dataweek2024.git"
+  },
+  "keywords": [
+    "dataweek"
+  ],
+  "author": "Juan Eduardo Coba Puerto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancop/dataweek2024/issues"
+  },
+  "homepage": "https://github.com/juancop/dataweek2024#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "peerjs": "^1.5.2"
+  }
+}
