@@ -1,0 +1,94 @@
+body {
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding-top: 10vh; /* Adds a little space at the top */
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 3em; /* Makes the title bigger */
+  }
+  
+  #box {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transition: all 0.5s; /* This line added to create a transition */
+  }
+  
+  #message {
+    display: none;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    font-size: 2em;
+  }
+
+/* your existing styles... */
+
+#retry {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+
+  #box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #logo {
+    position: fixed;
+    top: 10px; /* adjust this to set distance from top */
+    right: 30px; /* adjust this to set distance from right */
+    width: 100px; /* adjust this for your logo width */
+    height: 100px; /* adjust this for your logo height */
+  }
+
+  body {
+    text-align: center;
+}
+
+#games {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transition: all 0.5s;
+}
+
+.game:hover {
+    transform: scale(1.1);
+}
+
+#returnBtn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+  }
+
+  #box2 {
+    position: fixed; 
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    transition: all 0.5s; 
+  }
+   
